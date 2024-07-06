@@ -1,17 +1,14 @@
 package dev.pablo;
 
-/**
- * Hello world!
- */
-public final class App {
-    private App() {
-    }
-
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
+public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Person person1 = new Person("Pablo", "Abad", "123456789", 1988);
+        Person person2 = new Person("Gia", "Como", "987654321", 1980);
+
+        System.out.println("Person 1:");
+        person1.printAttributes();
+
+        System.out.println("\nPerson 2:");
+        person2.printAttributes();
     }
 }
