@@ -2,8 +2,8 @@ package dev.pablo;
 
 public class App {
     public static void main(String[] args) {
-        Person person1 = new Person("Pablo", "Abad", "123456789", 1988);
-        Person person2 = new Person("Gia", "Como", "987654321", 1980);
+        Person person1 = new Person("Pablo", "Abad", "123456789", 1988, "Spain", 'H');
+        Person person2 = new Person("Gia", "Como", "987654321", 1980, "Spain", 'H');
 
         System.out.println("Person 1:");
         person1.printAttributes();
